@@ -1,4 +1,11 @@
 1.What is a gitignore file and what should it include for a Java project?
+A) A gitignore file is a text file placed in your git repository that instructs git not to track specific files and folders that you don't want being
+ published to your master repository. Files like .jar,.war,.nar,.class, and.rar files should be included for a java project.
 2. What does fast-forward in git mean?
+A) Fast-forward merges literally move your main branch's tip forward to the end of your feature branch. This keeps all commits created in your feature 
+branch sequential while integrating it neatly back into your main branch.
 3. Why should youhavedifferent branches?
+A) Each developer can separate their work from other developers' work by branching out from the original code base. Additionally, it makes later
+ version fusion in Git much simpler.
 4. In a project how many remote Git repositories do you usually have?
+A) Small projects just require one remote repository, however bigger projects may require numerous remote repositories.
